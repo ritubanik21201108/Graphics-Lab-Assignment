@@ -57,7 +57,7 @@ void myInit() {
     glClearColor(0, 0, 0, 1); // Black background
     glClear(GL_COLOR_BUFFER_BIT);
 
-    glColor3f(1, 0, 0); // 🔴 Red color line
+    glColor3f(1, 0, 0); 
     glPointSize(1.0);
 
     glMatrixMode(GL_PROJECTION);
@@ -96,4 +96,5 @@ int main(int argc, char **argv) {
     glutDisplayFunc(myDisplay);
     glutMainLoop();
 }
+
 
